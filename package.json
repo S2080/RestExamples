@@ -1,18 +1,16 @@
 {
-  "name": "sujit",
-  "version": "1.0.0",
-  "description": "Start Small application using nodeJS",
-  "main": "1.0.1",
-  "dependencies": {
-    "faker": "^3.1.0",
-    "express": "^4.14.0",
-    "grunt" : "1.0.1",
-    "jsdocs" : "0.1.0"
+  "name": "node-restful",
+  "description": "A library for making REST API's in node.js with express",
+  "version": "0.2.5",
+  "devDependencies": {
+    "body-parser": "1.12.4",
+    "express": "4.12.4",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "npm tes"
+    "test": "make test"
   },
-  "author": "SujitKumbhar",
-  "license": "ISC"
+  "main": "index.js"
 }
